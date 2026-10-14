@@ -69,6 +69,7 @@ target_sources(
           "${_CMAKE_CURRENT_SOURCE_DIR}/../blas2/symv_gtest.cpp"
           # blas3 may use tensile or source gemm
           "${_CMAKE_CURRENT_SOURCE_DIR}/../blas3/gemm_gtest.cpp"
+          "${_CMAKE_CURRENT_SOURCE_DIR}/../blas3/sgemm_wide_n_gtest.cpp"
           "${_CMAKE_CURRENT_SOURCE_DIR}/../blas_ex/gemm_ex_gtest.cpp"
           "${_CMAKE_CURRENT_SOURCE_DIR}/../blas3/symm_gtest.cpp"
           "${_CMAKE_CURRENT_SOURCE_DIR}/../blas3/hemm_gtest.cpp"
